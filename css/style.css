@@ -1,0 +1,90 @@
+body{
+
+    background-color: #004aad;
+}
+
+.container{
+
+    display: flex;
+}
+
+.logo{
+
+    flex: 1;
+
+}
+
+
+.formulario{
+
+    background-color:#f7c94b;
+    padding: 30px;
+    flex: 1;
+    margin-right: 160px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-text{
+
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+
+}
+
+input{
+    border-radius: 10px;
+    border: black 1px solid;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+select{
+
+    border-radius: 10px;
+    border: black 1px solid;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.title-text h1{
+
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+
+.title-text h2{
+
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.enviar{
+
+    width: 350px;
+    padding: 15px 0;
+    background:rgb(189, 187, 185) ;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background: #004aad;
+    transform: scale(1.2);
+}
+
+.botão{
+    display: flex;
+    justify-content: center;
+}
